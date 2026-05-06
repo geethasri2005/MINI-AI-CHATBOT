@@ -1,2 +1,3 @@
 # MINI-AI-CHATBOT
-Using Angular Framework(.NET)
+Using Angular like DOTNET
+These Are MiniAI Chat Bot Website Files And Outputs
