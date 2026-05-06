@@ -1,0 +1,16 @@
+<div style="width:400px;margin:50px auto;font-family:Arial">
+<h2>🤖Mini AI Chatbot</h2>
+<input
+type="text"
+[(ngModel)]="message"
+placeholder="Type your message..."
+style="width:100%;padding:10px"
+/>
+<br><br>
+<button (click)="sendMessage()">Send</button>
+<link rel ="stylesheet" href="app.component.css">
+<br><br>
+<div *ngIf="response">
+<b>Bot:</b> {{response}}
+</div>
+</div>
